@@ -18,6 +18,7 @@ body{
 h1{
     font-size: 2.5rem;
     line-height: 1.5;
+    margin: 1rem;
 }
 .screen{
     display: flex;
@@ -57,6 +58,7 @@ h1{
     margin: 2rem 0.2rem;
     background-color: transparent;
     color: #fff;
+    border: 2px solid #fff;
     cursor: pointer;
 }
 .screen ul li button:hover, .screen ul li button:active{

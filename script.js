@@ -61,10 +61,11 @@ function createInsect(){
 function getRandomLocation(){
     const width = window.innerWidth
     const height = window.innerHeight
-    const x = Math.random() * (width - 200) + 180
-    const y = Math.random() * (height - 200) + 180
+    const x = Math.random() * (width - 10) 
+    const y = Math.random() * (height - 10) 
     return { x, y }
 }
+
 
 function catchInsect(){
     increaseScore()
