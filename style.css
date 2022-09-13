@@ -22,6 +22,7 @@ h1{
     margin: 1rem;
 }
 .screen{
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
